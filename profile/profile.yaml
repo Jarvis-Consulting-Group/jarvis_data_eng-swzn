@@ -1,0 +1,119 @@
+# Preferred name (Characters only)
+name: "Sajad Wazin"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-swzn
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: "I am a software developer, specialising in backend development. Since 2016, I have been working on projects in a variety of fields, all at different levels of difficulty. My main programming languages are Java, C/C++ and Python, with a heavy focus on software architecture, data science and algorithms. During my 3 years Bachelor of Science program at McGill University, I was able to gather a variety of skills that aid me on a daily basis. Among those skills are the ability to design secure and optimized software, the ability to analyze and develop complex algorithms and the ability to use my knowledge of software development in combination with mathematics to deliver a fault-proof product. Furthermore, in combination with my research at McGill University, understanding and developing conscious, reliable and expandable software is an important part of all my tasks."
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Java
+    - Python
+    - C/C++
+    - Linux/Bash
+    - RDBMS/SQL
+    - Data Structures and Algorithms
+    - AI/ML
+    - Agile/Scrum
+    - Git
+  # At least 5 skills
+  competent:
+    - HTML
+    - CSS
+    - JavaScript/TypeScript
+    - Spring
+    - PHP
+    - Selenium
+    - JUnit
+    - Pandas/Numpy/PyTorch/TensorFlow
+    - Maven
+    - Jira/Atlassian
+  # At least 5 skills
+  familiar:
+    - React
+    - Angular
+    - Docker
+    - Hadoop
+    - OCaml
+    - OpenGL
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description:
+      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  - name: "Springboot App"
+    git_url: "/springboot"
+    description: ""
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlytics"
+    description: ""
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: ""
+  - name: "Spark"
+    git_url: "/spark"
+    description: ""
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: ""
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+  - name: "FacebookWebScraper"
+    git_url: "https://github.com/swzn/FacebookWebScraper"
+    description: "Applied multiple software architecture and OOP principles to create scalable software. Designed and implemented search algorithms to analyze public data on Facebook. Designed a GUI with JavaFX to make the tool easy to use. Created a tree-based data structure to encode data in JSON format. Wrote a 18 page scientific report on findings made using the software. Technologies used: Git, Java, JavaFX, Maven, Selenium, Python, NLP."
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "June 2023-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Participated in daily Scrum meetings. Developed software using Java, RDBMS, Linux/Bash and GCP. Worked cooperatively to complete tasks on product backlog. Participated in multiple master code reviews and interview sessions."
+  - title: "Software Developer"
+    company: "GemPixel"
+    duration: "August 2022 - January 2023"
+    description: "Wrote and designed software to handle payments from different payment gateways in PHP using HTML/CSS. Implemented payment systems using REST APIs from PayPal, Stripe, Clover, WayForPay, Mercado Pago and JQuery as a frontend. Developed and deployed custom plugins in a SaaS business model. Worked on a Machine Learning model with PyTorch to detect spam links."
+  - title: "Research Developer"
+    company: "McGill University"
+    duration: "May 2022 - August 2022"
+    description: "Lead an independent research project based around studying algorithms, mainly focusing on artificial intelligence." 
+  - title: "Operations Specialist"
+    company: "Apple"
+    duration: "August 2021-present"
+    description: "Inventory management with SAP ERP and GBI Tableau. Work as a team to complete the daily tasks and inventory reception. Communicate with managers on a regular basis to work on team performance. Be a part of daily meetings. Provide and receive constructive feedback."
+#List of edcuation
+education: 
+  - school_name: "McGill University"
+    duration: "2020-2023"
+    degree: "Bachelor of Sciences"
+    department: "Honours Computer Science"
+    # optional
+    awards_achievements: 
+      - "Excellence Scholarship (2020)"
+      - "First Class Honours"
+      - "GPA: 3.73/4.0"
+
+#Optional section
+others:
+  - title: "Certificates"
+    #list of items
+    bullets:
+        - "SEBIQ Diploma"
+        - "IB Certification"
