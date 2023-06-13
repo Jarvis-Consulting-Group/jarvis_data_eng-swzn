@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 
 cmd=$1 #First argument (start | stop | create)
