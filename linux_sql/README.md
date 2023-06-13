@@ -69,7 +69,7 @@ This was tested using `echo` statements to check each variable individually. Aft
 
 # Deployment
 
-The application can be pulled from GitHub for use. I also wrote a small setup script `setup.sh` to quickly setup the work environment
+The application can be pulled from GitHub for use. I also wrote a small setup script `setup.sh` to quickly setup the work environment. The correct usage is `bash setup.sh [-d directory_name]`. If the `-d` parameter isn't used, then the software will be setup a default `cluster_management` directory. 
 
 # Improvements:
 - Make a setup script

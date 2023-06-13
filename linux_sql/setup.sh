@@ -1,9 +1,17 @@
 #!/bin/bash
 
-dirname="cluster_management"
+dirname=""
 
-if [ $# -eq 1 ]; then
-    dirname="$1"
+if [ $# -eq 2 ] && [ $1 == "-d" ]; then
+    dirname="$2"
+
+elif [ $# -eq 0 ]; then 
+    dirname="cluster_management"
+
+else
+    echo "Wrong usage!"
+    echo "Correct usage: bash setup.sh [-d directory name]"
+    exit 0;
 fi
 
 mkdir "$dirname"
